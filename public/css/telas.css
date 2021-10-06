@@ -1,0 +1,94 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(130, 177, 207);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    
+    border-bottom: 1px solid black;
+    padding: 10px;
+    min-width: 700px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1.5rem;
+}
+
+.header .div_menu a{
+    margin: 1rem;
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+}
+
+.header .div_menu:hover a{
+    color: #fff;
+    transition: .2s;
+}
+
+.div_menu{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.search{
+    min-width: 720px;
+    margin-bottom: 15px;
+}
+
+.search form input{
+    min-width: 100%;
+    min-height: 1vh;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 229, 248);
+}
+
+.lista a{
+    background-color: rgb(168, 153, 153);
+    color: rgb(65, 63, 63);
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.lista a:hover{
+    color: rgb(230, 230, 230);
+}
+
+.lista form button{
+    background-color: rgb(168, 153, 153);
+    color: rgb(65, 63, 63);
+    font-size: 1.1rem;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.lista form button:hover{
+    color: rgb(230, 230, 230);
+}

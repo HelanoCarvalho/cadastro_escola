@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(130, 177, 207),rgb(23, 80, 134));
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+main.container{
+    border: 1px solid black;
+    min-width: 350px;
+    max-width: 450px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+main h2{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+
+form#form_login{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input{
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.div-input input{
+    width: 100%;
+    min-height: 1vh;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.815);
+    background-color: rgba(145, 186, 233, 0.438);
+}
+
+.div-input input::placeholder{
+    color: rgba(255, 255, 255, 0.76);
+    padding: 3px;
+}
+
+form input[type="submit"]{
+    margin-top: 0.7rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, rgb(130, 177, 207),rgb(23, 80, 134));
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    min-width: 100%;
+}
+
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, rgb(130, 177, 207),rgb(23, 80, 134));
+}

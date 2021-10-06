@@ -1,0 +1,66 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgb(130, 177, 207),rgb(23, 80, 134));
+    min-height: 97.7vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.home{
+    border: 1px solid rgb(0, 68, 255);
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.conteudo .janela{
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    max-width: 300px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.janela img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.home .header .div_menu a{
+    color: #fff;
+}
+.home .header .div_menu a:hover{
+    color: black;
+}
+
+.div_menu:hover{
+    border: 1px solid black;
+}
+
+
+.janela h2 a{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.janela h2 a:hover{
+    color: black;
+}
